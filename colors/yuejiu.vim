@@ -25,15 +25,19 @@ let g:colors_name = 'yuejiu'
 
 if &t_Co >= 256
 
-  hi Normal           ctermbg=233  ctermfg=217  cterm=NONE
+function Rand()
+  return str2nr(matchstr(reltimestr(reltime()), '\v\.@<=\d+')[1:])
+endfunction
+
+  hi Normal           ctermbg=232  ctermfg=217  cterm=NONE
   set background=dark
 
   hi Special          ctermbg=NONE ctermfg=217   cterm=NONE
-  hi Comment          ctermbg=NONE ctermfg=242  cterm=NONE
-  hi Statement        ctermbg=NONE ctermfg=94  cterm=NONE 
-  hi Identifier       ctermbg=NONE ctermfg=95   cterm=NONE
-  hi Type             ctermbg=NONE ctermfg=94   cterm=NONE
-  hi Function         ctermbg=NONE ctermfg=95   cterm=NONE
+  hi Comment          ctermbg=NONE ctermfg=242   cterm=NONE
+  hi Statement        ctermbg=NONE ctermfg=94    cterm=NONE 
+  hi Identifier       ctermbg=NONE ctermfg=131   cterm=NONE
+  hi Type             ctermbg=NONE ctermfg=131   cterm=NONE
+  hi Function         ctermbg=NONE ctermfg=131   cterm=NONE
   hi PreProc          ctermbg=NONE ctermfg=217   cterm=NONE
 
   hi Number           ctermbg=NONE ctermfg=186  cterm=NONE
