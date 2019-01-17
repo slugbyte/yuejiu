@@ -38,7 +38,7 @@ endfunction
   hi Identifier       ctermbg=NONE ctermfg=131   cterm=NONE
   hi Type             ctermbg=NONE ctermfg=131   cterm=NONE
   hi Function         ctermbg=NONE ctermfg=131   cterm=NONE
-  hi PreProc          ctermbg=NONE ctermfg=217   cterm=NONE
+  hi PreProc          ctermbg=NONE ctermfg=130   cterm=NONE
 
   hi Number           ctermbg=NONE ctermfg=186  cterm=NONE
   hi Operator         ctermbg=NONE ctermfg=214  cterm=NONE
