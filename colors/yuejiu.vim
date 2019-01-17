@@ -8,7 +8,7 @@
 "           \/__/               \/___/           
 "      
 " 
-" Name: YuèJiǔ (yuejiu)
+" Name: 月酒 YuèJiǔ (yuejiu)
 " Maintainer: Duncan Marsh (slugbyte@slugbyte.com)
 " Credit: yuejiu is a modified version moonshine by Karolis Koncevicius
 " Inspirations: Moonshine, Jellybeans, Apprentice, Twilight, Gruvbox
