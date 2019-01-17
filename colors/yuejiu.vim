@@ -25,10 +25,6 @@ let g:colors_name = 'yuejiu'
 
 if &t_Co >= 256
 
-function Rand()
-  return str2nr(matchstr(reltimestr(reltime()), '\v\.@<=\d+')[1:])
-endfunction
-
   hi Normal           ctermbg=232  ctermfg=217  cterm=NONE
   set background=dark
 
