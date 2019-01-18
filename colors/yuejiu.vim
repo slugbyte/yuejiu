@@ -10,7 +10,7 @@
 " 
 " Name: 月酒 YuèJiǔ (yuejiu)
 " Maintainer: Duncan Marsh (slugbyte@slugbyte.com)
-" Credit: yuejiu is a modified version moonshine by Karolis Koncevicius
+" Credit: yuejiu is a modified version moonshine by Karolis Koncevicius " Repository: https://github.com/slugbyte/yuejiu
 " Inspirations: Moonshine, Jellybeans, Apprentice, Twilight, Gruvbox
 
 hi clear
