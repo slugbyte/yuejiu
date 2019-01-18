@@ -8,7 +8,7 @@
 "           \/__/               \/___/           
 "      
 " 
-" Name: YuèJiǔ (yuejiu)
+" Name: 月酒 YuèJiǔ (yuejiu)
 " Maintainer: Duncan Marsh (slugbyte@slugbyte.com)
 " Credit: yuejiu is a modified version moonshine by Karolis Koncevicius
 " Inspirations: Moonshine, Jellybeans, Apprentice, Twilight, Gruvbox
@@ -24,10 +24,6 @@ set background=dark
 let g:colors_name = 'yuejiu'
 
 if &t_Co >= 256
-
-function Rand()
-  return str2nr(matchstr(reltimestr(reltime()), '\v\.@<=\d+')[1:])
-endfunction
 
   hi Normal           ctermbg=232  ctermfg=217  cterm=NONE
   set background=dark
