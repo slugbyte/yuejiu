@@ -6,13 +6,13 @@
 "        `/___/> \/___/  \/____/\ \_\ \/_/\/___/ 
 "           /\___/             \ \____/          
 "           \/__/               \/___/           
-"      
-" 
+"
+"
 " Name: 月酒 YuèJiǔ (yuejiu)
 " Maintainer: Duncan Marsh (slugbyte@slugbyte.com)
-" Credit: yuejiu is a modified version moonshine by Karolis Koncevicius " Repository: https://github.com/slugbyte/yuejiu
+" Credit: yuejiu is a modified version moonshine by Karolis Koncevicius
+" Repository: https://github.com/slugbyte/yuejiu
 " Inspirations: Moonshine, Jellybeans, Apprentice, Twilight, Gruvbox
-
 hi clear
 
 if exists('syntax_on')
@@ -29,7 +29,6 @@ if &t_Co >= 256
   set background=dark
 
 
-
   hi Special          ctermbg=NONE ctermfg=161   cterm=NONE
   hi Comment          ctermbg=NONE ctermfg=242   cterm=NONE
   hi Statement        ctermbg=NONE ctermfg=94    cterm=NONE 
@@ -40,7 +39,7 @@ if &t_Co >= 256
   hi PreProc          ctermbg=NONE ctermfg=130   cterm=NONE
   hi Delimiter        ctermbg=NONE ctermfg=130   cterm=NONE
   hi Structure        ctermbg=NONE ctermfg=94    cterm=NONE
-   
+
   hi Number           ctermbg=NONE ctermfg=186  cterm=NONE
   hi Operator         ctermbg=NONE ctermfg=214  cterm=NONE
   hi Constant         ctermbg=NONE ctermfg=217  cterm=NONE
@@ -61,7 +60,7 @@ if &t_Co >= 256
   hi Directory        ctermbg=NONE ctermfg=143  cterm=NONE
   hi Underlined       ctermbg=NONE ctermfg=NONE cterm=UNDERLINE
 
-  hi Visual           ctermbg=233  ctermfg=110  cterm=REVERSE
+  hi Visual           ctermbg=197  ctermfg=16  cterm=NONE
   hi VisualNOS        ctermbg=NONE ctermfg=NONE cterm=UNDERLINE
   hi IncSearch        ctermbg=106  ctermfg=235  cterm=NONE
   hi Search           ctermbg=106  ctermfg=235  cterm=NONE
