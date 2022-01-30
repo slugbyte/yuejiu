@@ -34,7 +34,7 @@ if &t_Co >= 256
   hi Statement        ctermbg=NONE ctermfg=94    cterm=NONE 
   hi Identifier       ctermbg=NONE ctermfg=131   cterm=NONE
   autocmd FileType haskell hi Identifier ctermfg=130
-  hi Type             ctermbg=NONE ctermfg=131   cterm=NONE
+  hi Type             ctermbg=NONE ctermfg=173   cterm=NONE
   hi Function         ctermbg=NONE ctermfg=131   cterm=NONE
   hi PreProc          ctermbg=NONE ctermfg=130   cterm=NONE
   hi Delimiter        ctermbg=NONE ctermfg=130   cterm=NONE
